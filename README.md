@@ -4,11 +4,17 @@
 
 Estimated hours of work so far | Horas estimadas de trabajo hasta el momento:
 
-* **454 hours**
+* **530 hours**
 
-##ENGLISH
+* Total amount donated by users: $14.11
 
-###[ Screenshots ]
+Contributors:
+
+* [huelvayork](https://github.com/huelvayork)
+
+## ENGLISH
+
+### [ Screenshots ]
 
 ![piKiss_01](http://misapuntesde.com/images/piKiss_01.png)
 
@@ -20,112 +26,138 @@ Estimated hours of work so far | Horas estimadas de trabajo hasta el momento:
 
 ![piKiss_05](http://misapuntesde.com/images/piKiss_05.png)
 
-###[ ChangeLog (dd/mm/yy)]
+### [ ChangeLog (dd/mm/yy)]
 
-####(26/05/15)
+### (24/01/19)
 
-· Added server > Nagios
+· Updated DXX-Rebirth to version 0.60.100
 
-· Added Info > Webmin
+### (18/01/19)
 
-####(23/05/15)
+· Updated webmin, removepkg & others script.
 
-· Added games > OpenBor for Raspberry Pi, Debian Jessie
+### (14/01/18)
 
-####(19/05/15)
+· Updated Games/Dune Legacy to 0.96.4
 
-· Added game Arx Fatalis for Raspberry Pi 2, ODROID and Debian Jessie
+· Updated & fixed url broken in Games/Descent 1 & 2 to 0.59.100.20161206-1
 
-####(09/05/15)
+· Added Games > Fruit'Y
 
-· Added server > Ad Blocker
+### (13/01/18)
 
-####(21/04/15)
+· Fixed issue with Tweaks/others script
 
-· Added others > ramlog
+· Added new packages to Tweaks/removepkg
 
-· Uddated tweaks > others.sh (Install package fuck)
+· Fixed desktop menu entry to PiKISS
 
-####(18/04/15)
+· Fixed Tweaks/services
 
-· Added Emus > Picodrive & Caprice for Raspberry Pi 2 (Amstrad emulator)
+### (22/10/17)
 
-####(17/04/15)
+· Added Emulators > OpenMSX 0.14
 
-· Updated SDL2, Spectrum emulator
+### (13/08/17)
 
-####(05/04/15)
+· Added Server > Octoprint
 
-· Added Others > NetTools - MITM Pentesting Opensource Toolkit
+### (25/07/17)
 
-####(21/03/15)
+· Added Server > Bittorrent Sync alternatives
 
-· Updated Emulators > Mame
+### (24/07/17)
 
-####(19/03/15)
+· Updated and improved Server > Owncloud 10.0.2
 
-· Updated Games > Return to Castle Wolfenstein
+· New helper's functions
 
-####(17/03/15)
+### (21/07/17)
 
-· Added Games > Descent 1 & 2 (Shareware)
+· PIKISS reach version 1.0!
 
-· Update Emus > PiSNES
+· Improvements, fixes and upgrades
 
-####(16/03/15)
+· Added Server > VPNServer
 
-· ODROID: Games > Quake 2
+· Added Server > Auto update
 
-· RPi: Updated Games > Quake 2
+### (10/07/17)
 
-· Updated Tweaks > Others
+· Updated Server > Frameworks
 
-####(14/03/15)
+### (09/07/17)
 
-· Enhaced Games > Crispy-Doom
+· Updated Server > Web Server+PHP7
 
-· ODROID: Games > Crispy-Doom
+### (09/03/17)
 
-####(12/03/15)
+· Added Emus > Advance MAME 3.4
 
-· Added Server > Install vsftpd (FTP) Server
+· Added Emus > MAME 0.183
 
-####(11/03/15)
+### (02/10/16)
 
-· ODROID: Added Tweaks > others script
+· Added Emus > OpenMSX 0.13.0
 
-· Added Tweaks > removepkg script
+### (13/09/16)
 
-· Update Info > check lastmod image
+· Added Games > Giana's return, ScummVM. Updated Spectrum emulator unrealspeccy to 0.0.69.1
 
-####(09/03/15)
+### (12/09/16)
 
-· ODROID: Added Tweaks > autologin script
+· Fix issues and improve config, inet, other, server, tweaks sections. Raspberry Pi 3 ready.
 
-####(08/03/15)
+### (08/09/16)
 
-· piKiss.sh refactorized
+· Fix issues and improve games, emulators, info, mmedia sections. Raspberry Pi 3 ready.
+· Added Xump game.
+· Remove Minecraft script.
 
-####(11/01/15)
+### (07/09/16)
 
-· Updated ownCloud to 7.0.4
+· Fix issues and improve games/emulator section. Raspberry Pi 3 ready.
 
-####(11/01/15)
+### (06/09/16)
 
-· Added Info > Lynis (security auditing tool)
+· Fix issues and improve games section. Raspberry Pi 3 ready.
+
+### (05/09/16)
+
+· Fix issues and improve tweaks section. Raspberry Pi 3 ready.
+
+### (17/08/16)
+
+· Fix issue with link to the new lib-gfx.1.5 library.
+
+### (04/05/16)
+
+· Added Let's Encrypt on web server
+
+### (18/04/16)
+
+· Added desktop icons to MAME, Speccy
+
+### (29/03/16)
+
+· Added server > VNCServer
+
+### (25/02/16)
+
+· Added games > Game Maker games
 
 ...
 
 To see the full changes, read the file CHANGELOG
 
-###[ Introducing PiKISS ]
+### [ Introducing PiKISS ]
 
 Install an application on Linux is not complex. Sometimes just type *sudo apt-get install* and get the application installed with all its dependencies. But... What if we need to install more than one such as a web server?, Is it not in the official repositories?, What if you want to get rid off input commands?. Please, an easy way to set my WIFI network!.
 
 Don't despair. **PiKISS** has come to help you...
 
 - - -
-**PiKISS** *(Pi Keeping It Simple, Stupid!)* are **shell Scripts (Bash) for *Raspberry Pi* 1 & 2 (*Raspbian* and derivates) and for *ODROID-C1* (*Ubuntu*)** soon, which has a menu that will allow you to install some applications or configure files automatically as easy as possible.
+**PiKISS** *(Pi Keeping It Simple, Stupid!)* are **shell Scripts (Bash) for *Raspberry Pi* boards (*Raspbian* and Debian derivates) and for *ODROID-C1* (*Ubuntu*)** soon, which has a menu that will allow you to install some applications or configure files automatically as easy as possible.
 
 The idea is offer facilities to manage your operating system, selecting an option in a menu and answer [Yes/No]. If you need check dependencies, install an app, modify a script at boot, add a line to a file or download other, **PiKISS** will do it for you.
 
@@ -141,16 +173,16 @@ What some users have said about **PiKISS**:
 
 **NOTE:** 100% Free of viruses and Trojans. Not available in stores. The author of **PiKISS** is not responsible if you get bored with your *Raspberry Pi* because everything is too easy. Online until I wish or *Internet* is destroyed.
 
-####[ Installation ]
+#### [ Installation ]
 
 Just type:
 
 <pre>
-git clone https://github.com/jmcerrejon/PiKISS.git && cd PiKISS
+git clone https://github.com/jmcerrejon/PiKISS.git piKiss && cd $_
 ./piKiss.sh
 </pre>
 
-####[ Update ]
+#### [ Update ]
 
  If you want the latest version, just enter into the directory with cd PiKISS and type:
 
@@ -160,7 +192,7 @@ git pull
 
 NOTE: If you use another Debian based distribution, maybe you need to execute the next command: *git config --global http.sslVerify false*
 
-####[ HELP ME! ]
+#### [ HELP ME! ]
 
 **PiKISS** grow up according to users requests (ulysess@gmail.com) or  I'll append scripts that I consider necessary, but I call **to the community** to share, improve and help to add new scripts to the existing one. If the project grow, **is up to you**.
 
@@ -170,22 +202,22 @@ Mail: <ulysess@gmail.com>
 
 Blog: [http://misapuntesde.com](http://misapuntesde.com)
 
-####[ DONATE ]
+#### [ DONATE ]
 
 This project has involved many hours thinking, searching, refactoring and testing code. I accept donations due the effort to make new scripts. Donations are not required or expected. Any amount that you feel is appropriate would be appreciated. Simply click on the Donate button at the end of this document. Thank you! :)
 
-##ESPAÑOL
+## ESPAÑOL
 
-##PiKISS para Raspberry Pi y ODROID-C1: Un puñado de scripts con menú para hacerte la vida más fácil.
+## PiKISS para Raspberry Pi y ODROID-C1: Un puñado de scripts con menú para hacerte la vida más fácil.
 
-####[ Presentando PiKISS ]
+#### [ Presentando PiKISS ]
 
 Instalar una aplicación en Linux no es complejo. A veces basta con un *sudo apt-get install* y tendrás la aplicación con todas sus dependencias. Pero, ¿Y si tenemos que instalar más de una como por ejemplo en un servidor web?, ¿Y si no está en los repositorios oficiales?, ¿Y si no quieres teclear? ¡Por favor, una manera fácil de instalar mi pen WIFI!.
 
 No desesperéis. Ha llegado PiKISS…
 
 - - -
-**PiKISS** *(Pi Keeping It Simple, Stupid!, "Pi manteniéndolo sencillo, ¡Estúpido!")* son unos **Shell Scripts para *Raspberry Pi* 1 y 2 (*Raspbian* y derivados), además de *ODROID-C1* (Ubuntu)** que cuenta con un menú que te va a permitir instalar algunas aplicaciones o configurar ficheros de forma automática de la manera más fácil posible. **Su misión: Simplificar la instalación de software en *Raspberry Pi* o en *ODROID-C1* y mantenerla.**
+**PiKISS** *(Pi Keeping It Simple, Stupid!, "Pi manteniéndolo sencillo, ¡Estúpido!")* son unos **Shell Scripts para placas *Raspberry Pi* (*Raspbian* y derivados Debian), además de *ODROID-C1* (Ubuntu)** que cuenta con un menú que te va a permitir instalar algunas aplicaciones o configurar ficheros de forma automática de la manera más fácil posible. **Su misión: Simplificar la instalación de software en *Raspberry Pi* o en *ODROID-C1* y mantenerla.**
 
 La idea es ofrecer facilidades para manejar tu distribución y que las instalaciones sean tan sencillas como seleccionar una opción en un menú y contestar [Si/No]. Si alguna conlleva algo más que instalar, por ejemplo modificar un script en el arranque, añadir una línea a un fichero, descargar otros ficheros, comprobar dependencias, **PiKISS** lo hará por ti.
 
@@ -201,7 +233,7 @@ Lo que algunos usuarios han dicho de **PiKISS**:
 
 **NOTA:** 100% Libre de virus y troyanos. No disponible en tiendas. El autor de *PiKISS* no se hace responsable si te aburres con tu RasPi porque todo es demasiado fácil. Online hasta que me plazca o se destruya *Internet*.
 
-####[ Instalación ]
+#### [ Instalación ]
 
 Escribe en la terminal lo siguiente:
 
@@ -210,7 +242,7 @@ git clone https://github.com/jmcerrejon/PiKISS.git && cd PiKISS
 ./piKiss.sh
 </pre>
 
-####[ Actualizar ]
+#### [ Actualizar ]
 
 Si ya la tienes instalada y quieres actualizarla con los últimos cambios, teclea en el directorio de *PiKISS*:
 
@@ -220,7 +252,7 @@ git pull
 
 NOTA: Si usas otra distribución que no sea *Raspbian* en la Raspberry Pi, tal vez tengas que ejecutar esta sencencia: *git config --global http.sslVerify false*
 
-####[ ¡AYÚDAME! ]
+#### [ ¡AYÚDAME! ]
 
 **PiKISS** crecerá de acuerdo a las peticiones de los usuarios  o añadiré los scripts que considere oportunos, pero hago un llamamiento a **toda la comunidad** para compartir, mejorar o agregar nuevos scripts a los ya existentes. Que este proyecto crezca **depende de tí**.
 
@@ -232,7 +264,7 @@ Mail: <ulysess@gmail.com>
 
 Blog: [http://misapuntesde.com](http://misapuntesde.com)
 
-####[ DONACIONES ]
+#### [ DONACIONES ]
 
 Este proyecto ha supuesto muchas horas de pensar, buscar, refactorizar y testear código. Acepto donaciones por el esfuerzo que supone mantener y hacer nuevos scripts. Las donaciones no se requieren ni las espero. Cualquier cantidad que sientas que es apropiada sería de agradecer. Simplemente haz click en el botón "Donate" al final del documento. ¡Gracias! :)
 

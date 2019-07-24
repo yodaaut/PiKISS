@@ -2,15 +2,15 @@
 #
 # Description : Crispy-Doom ver. 2.3 to play doom,heretic,hexen,strife
 # Author      : Jose Cerrejon Gonzalez (ulysess@gmail_dot._com)
-# Version     : 1.2 (4/Apr/15)
-# Compatible  : Raspberry Pi 1 & 2 (tested), ODROID-C1 (tested)
+# Version     : 1.3 (07/Sep/16)
+# Compatible  : Raspberry Pi 1, 2 & 3 (tested), ODROID-C1 (tested)
 #
 # HELP        : To compile crispy-doom, remember: sudo apt-get install -y sdl-net1.2-dev sdl-mixer1.2-dev libsdl1.2-dev autoconf
 # Dependencies: libsdl1.2debian,libsdl-mixer1.2,libsdl-net1.2,timidity
 #
 clear
 
-. ../helper.sh || . ./scripts/helper.sh || . ./helper.sh || wget -q 'http://github.com/jmcerrejon/PiKISS/raw/master/scripts/helper.sh'
+. ./scripts/helper.sh || . ./helper.sh || wget -q 'http://github.com/jmcerrejon/PiKISS/raw/master/scripts/helper.sh'
 check_board || { echo "Missing file helper.sh. I've tried to download it for you. Try to run the script again." && exit 1; }
 
 WAD_PATH="$HOME/games"
@@ -80,7 +80,7 @@ menu(){
 
 if [ ! -e "/usr/local/games/crispy-doom" ];then
     sudo apt-get install -y libsdl1.2debian libsdl-mixer1.2 libsdl-net1.2 timidity
-    
+
     # Check if SDL is fixed to RPi2
     SDL_fix_Rpi
 
@@ -98,4 +98,4 @@ fi
 
 menu
 
-read -p "To play, just type doom, heretic, hexen or strife, depending the game you have installed. Press [Enter] to continue..."
+read -p "To play, just type doom, heretic, hexen(shareware version can fail) or strife(shareware version can fail), depending the game you have installed. Press [Enter] to continue..."
